@@ -1,0 +1,26 @@
+.info {
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+}
+
+h1 {
+    color: var(--White);
+}
+
+p {
+    color: var(--SlightlyTransparentWhite);
+    text-align: left;
+    width: 300px;
+}
+
+.data {
+    display: flex;
+    gap: 30px;
+    margin-top: 40px;
+}
+
+.insights {
+    color: var(--SoftViolet);
+}
+

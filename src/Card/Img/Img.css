@@ -1,0 +1,4 @@
+img {
+    width: 450px;
+    filter: opacity(0.5) drop-shadow(0 0 0 hsl(277, 64%, 61%));
+}

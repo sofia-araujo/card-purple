@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Lexend+Deca:wght@100..900&display=swap');
+
+:root {
+    --VeryDarkBlue: hsl(233, 47%, 7%);
+    --DarkDesaturatedBlue: hsl(244, 38%, 16%);
+    --SoftViolet: hsl(277, 64%, 61%);
+    --White: hsl(0, 0%, 100%);
+    --SlightlyTransparentWhite : hsla(0, 0%, 100%, 0.75);
+    --SlightlyTransparentWhite2: hsla(0, 0%, 100%, 0.6);
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--VeryDarkBlue);
+    font-family: "Inter", sans-serif;
+}
+
+.card-main {
+    background-color: var(--DarkDesaturatedBlue);
+    display: flex;
+    width: 900px;
+    border-radius: 8px;
+}
+
+img {
+    border-radius: 0px 8px 8px 0px;
+}
+@media screen and (max-width: 929px){
+    .card-main {
+        flex-direction: column-reverse;
+        width: 450px;
+        border-radius: 0px 0px 8px 8px;
+        width: 400px;
+    }
+
+    img {
+        border-radius: 8px 8px 0px 0px;
+        width: 400px;
+    }
+}

@@ -1,0 +1,12 @@
+.data-div {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    color: var(--White);
+}
+
+.name-data {
+    font-family: "Lexend Deca", sans-serif;
+    font-size: 13px;
+    color: var(--SlightlyTransparentWhite);
+}
